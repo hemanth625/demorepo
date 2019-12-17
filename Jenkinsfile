@@ -8,12 +8,12 @@ pipeline{
         }
                 stage("build"){
             steps{
-                sh "echo test"
+                sh "echo build"
             }
         }
                 stage("UPLOAD ARTIFACTORY"){
             steps{
-                sh "echo test"
+                sh "echo upload"
             }
         }
                 stage("deployment"){
