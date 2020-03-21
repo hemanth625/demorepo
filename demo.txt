@@ -4,3 +4,4 @@ this is being edited directly from remote
 test
 this is the fourth line
 editing fifth line
+editing sixth line
