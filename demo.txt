@@ -9,3 +9,4 @@ commiting to test
 showing the rebase
 testing git fetch
 testing stashing
+testing git ignore
