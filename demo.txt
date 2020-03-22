@@ -8,3 +8,4 @@ testing in jenkins
 commiting to test
 showing the rebase
 testing git fetch
+testing stashing
