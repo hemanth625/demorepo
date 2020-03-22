@@ -2,10 +2,4 @@ ythis is being edited directly from remote
 this is a demo file
 this is being edited directly from remote
 test
-this is the fourth line
-editing fifth line
-editing sixth line
-i am editing it from ubuntu
-editing it in release branch
-test pull request
-editing it from console
+editing it to test conflict
