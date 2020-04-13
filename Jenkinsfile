@@ -1,21 +1,10 @@
 pipeline {
-   agent any
-
-   stages {
-      stage('buildcode) {
-         steps {
-            echo 'build'
-         }
-      }
-      stage('deployment') {
-         steps {
-            echo 'deployment'
-         }
-      }
-      stage('test') {
-         steps {
-            echo 'test'
-         }
-      }
-   }
-}
+    agent any
+    stages {
+        stage('Example') {
+         	agent { docker 'maven:3-alpine' } 
+            	steps {
+               		sh 'mvn compile'
+            }
+        }
+    }
