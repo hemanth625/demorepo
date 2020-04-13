@@ -4,6 +4,7 @@ pipeline {
         stage('Example') {
             	steps {
                		sh 'ls -lrt'
+                    echo "test"
             }
         }
     }
